@@ -22,4 +22,4 @@ git commit -m "your message whatever you want to add inside these double brekets
 
 step 4:
 save those changes by this command
- git push
+ git push -u origin master
