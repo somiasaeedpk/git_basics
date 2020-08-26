@@ -1,3 +1,6 @@
+These are first time setup
+step 0: make a new repository on github
+
 step 1: make sure that u have initilized git for the folder where u are working by running following command
 
 git init
@@ -23,3 +26,4 @@ git commit -m "your message whatever you want to add inside these double brekets
 step 4:
 save those changes by this command
  git push -u origin master
+
