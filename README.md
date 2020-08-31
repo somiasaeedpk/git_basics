@@ -1,3 +1,4 @@
+[![Run on Repl.it](https://repl.it/badge/github/somiasaeedpk/git_basics)](https://repl.it/github/somiasaeedpk/git_basics)
 These are first time setup
 step 0: make a new repository on github
 
