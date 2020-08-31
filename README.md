@@ -1,4 +1,5 @@
-[![Run on Repl.it](https://repl.it/badge/github/somiasaeedpk/git_basics)](https://repl.it/github/somiasaeedpk/git_basics)
+You Can Also run your code inside repl.t by clicking following button. [![Run on Repl.it](https://repl.it/badge/github/somiasaeedpk/git_basics)](https://repl.it/github/somiasaeedpk/git_basics)
+
 These are first time setup
 step 0: make a new repository on github
 
