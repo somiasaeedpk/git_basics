@@ -21,7 +21,7 @@ int main(){
     cin >> total_ecat;
     cout<<"enter obtained marks in ecat:\n";//here total marks in ecat are 400
     cin >> ecat;
-    double aggregate =matric/1050 * 25 + fsc/1100 * 45 + ecat/400 * 30 ; 
+    double aggregate =matric/total_matric * 25 + fsc/total_fsc * 45 + ecat/total_ecat * 30 ; 
     cout << "aggregate= " <<aggregate;
 
 
