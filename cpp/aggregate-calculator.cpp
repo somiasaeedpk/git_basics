@@ -6,14 +6,20 @@ using namespace std;
 
 int main(){
     string name;
-    double matric, fsc, ecat;
+    double matric, fsc, ecat, total_matric, total_fsc, total_ecat;
     cout<<"enter name:\n";
     cin >> name;
-    cout<<"enter matric marks:\n";// here total marks in matric are 1050
+    cout<<"enter total marks in matric:\n";
+    cin >> total_matric;
+    cout<<"enter matric obtained marks:\n";// here total marks in matric are 1050
     cin >> matric;
-    cout<<"enter fsc marks:\n";//here total marks in fsc are 1100
+    cout<<"enter total marks in fsc:\n";
+    cin >> total_fsc;
+    cout<<"enter fsc obtained marks:\n";//here total marks in fsc are 1100
     cin >> fsc;
-    cout<<"enter marks in ecat:\n";//here total marks in ecat are 400
+    cout<<"enter total marks in ecat:\n";
+    cin >> total_ecat;
+    cout<<"enter obtained marks in ecat:\n";//here total marks in ecat are 400
     cin >> ecat;
     double aggregate =matric/1050 * 25 + fsc/1100 * 45 + ecat/400 * 30 ; 
     cout << "aggregate= " <<aggregate;
