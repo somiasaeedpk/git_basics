@@ -6,17 +6,21 @@ int main(){
     //bmi-calculator
 
     string name;
-    double weight, height, bmi;
+    double weight_kg, age, bmi;
+    float height_cm;
 
     cout <<"enter name:\n";
     cin >> name ;
 
-    cout <<"enter weight:\n";
-    cin >> weight;
+    cout<<"enter your age:\n";
+    cin >> age;
 
-    cout <<"enter height:\n";
-    cin >> height;
-    bmi = weight / (height * height);
+    cout <<"enter weight:\n";//enter your weight in kg
+    cin >> weight_kg;
+
+    cout <<"enter height:\n";//enter your height in cm
+    cin >> height_cm;
+    bmi = weight_kg / (height_cm * height_cm);
     cout << "bmi= " << bmi;
 
     return 0;
