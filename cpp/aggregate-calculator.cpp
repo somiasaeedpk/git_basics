@@ -23,8 +23,11 @@ int main(){
     cin >> ecat;
     double aggregate =matric/total_matric * 25 + fsc/total_fsc * 45 + ecat/total_ecat * 30 ; 
     cout << "aggregate= " <<aggregate;
-
-
+    if(aggregate<40)
+    cout<<aggregate<<" fail.\n";
+    else
+    cout<<aggregate<<" passed.\n";
+    
     return 0;
 }
 
