@@ -7,7 +7,7 @@ int main(){
 
     string name;
     double weight_kg, age, bmi;
-    float height_cm;
+    float height_m;
 
     cout <<"enter name:\n";
     cin >> name ;
@@ -19,9 +19,15 @@ int main(){
     cin >> weight_kg;
 
     cout <<"enter height:\n";//enter your height in cm
-    cin >> height_cm;
-    bmi = weight_kg / (height_cm * height_cm);
+    cin >> height_m;
+    bmi = weight_kg / (height_m * height_m);
     cout << "bmi= " << bmi;
+    if(bmi<18.5)
+    cout<<bmi<<" underweight.\n";
+    else if(bmi>30)
+    cout<<bmi<<" overweight.\n";
+    else
+    cout<<bmi<<" normal weight.\n";
 
     return 0;
 
