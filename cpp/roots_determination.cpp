@@ -10,6 +10,7 @@ int main(){
     cin >> a >> b >> c;
     discriminant = b*b - 4*a*c;
     
+    
     if(discriminant>0){
         root_1 = (-b + sqrt(discriminant)) / 2*a;
         root_2 = (-b + sqrt(discriminant)) / 2*a;
@@ -37,6 +38,10 @@ int main(){
 
 
     }
+
+
+
+    
     
 
 
