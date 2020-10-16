@@ -5,10 +5,20 @@ using namespace std;
 
 int main(){
     float hours, rate_per_hour, loan, tax, initial_salary, salary_after_deduction, gross_salary;
-    hours = 90;
-    rate_per_hour = 300;
-    loan = 1000;
-    tax = 0.1;
+
+    cout<<"enter the hours you work per month"<<endl;
+    cin>>hours;
+
+    cout<<"enter the amount of rate_per_hour"<<endl;
+    cin>>rate_per_hour;
+
+    cout<<"enter the amount of loan"<<endl;
+    cin>>loan;
+
+    cout<<"enter tax"<<endl;
+    cin>>tax;
+
+
     initial_salary = hours * rate_per_hour;
     tax = initial_salary * tax;
     salary_after_deduction = initial_salary - tax;
