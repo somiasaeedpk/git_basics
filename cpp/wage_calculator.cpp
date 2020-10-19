@@ -4,7 +4,7 @@ and tax on the salary is 10%. calculate his salary.*/
 using namespace std;
 
 int main(){
-    float hours, rate_per_hour, loan, tax, initial_salary, salary_after_deduction, gross_salary;
+    float hours, rate_per_hour,tax_percentage, loan, deductable_tax_amount, initial_salary, salary_after_deductable_tax, gross_salary;
 
     cout<<"enter the hours you work per month"<<endl;
     cin>>hours;
@@ -15,14 +15,16 @@ int main(){
     cout<<"enter the amount of loan"<<endl;
     cin>>loan;
 
-    cout<<"enter tax"<<endl;
-    cin>>tax;
+    cout<<"enter the tax"<<endl;
+    cin>>tax_percentage;
 
 
     initial_salary = hours * rate_per_hour;
-    tax = initial_salary * tax;
-    salary_after_deduction = initial_salary - tax;
-    gross_salary = salary_after_deduction - loan;  
+    deductable_tax_amount = initial_salary/100 * tax_percentage;
+    salary_after_deductable_tax = initial_salary - deductable_tax_amount;
+    gross_salary = salary_after_deductable_tax - loan;
+
+
 
     cout<<"gross_salary = " <<gross_salary;
 
